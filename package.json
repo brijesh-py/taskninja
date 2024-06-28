@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  },
+  "name": "taskninja",
+  "description": "todolist-app/ │ ├── config/ │   ├── db.js                  # Database configuration │ ├── controllers/ │   ├── todoController.js      # Controller for handling todo-related logic │ ├── models/ │   ├── todoModel.js           # Mongoose schema and model for todos │ ├── routes/ │   ├── todoRoutes.js          # Routes for todo-related endpoints │ ├── middlewares/ │   ├── errorHandler.js        # Custom error handling middleware │ ├── utils/ │   ├── logger.js              # Logger utility │ ├── tests/ │   ├── todo.test.js           # Tests for todo functionality │ ├── .env                       # Environment variables ├── .gitignore                 # Git ignore file ├── app.js                     # Main application file ├── package.json               # NPM package configuration ├── package-lock.json          # NPM package lock file └── README.md                  # Project documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
